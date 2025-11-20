@@ -13,7 +13,10 @@ data:
   DB_USER: "shipping"
   DB_PASS: "shipping123"
   DB_NAME: "shipping"
-  DB_CONNECTION: "jdbc:mysql://mysql:3306/shipping?allowPublicKeyRetrieval=true&useSSL=false"
+  DB_CONNECTION: "jdbc:mysql://<DB-HOST>:3306/shipping?allowPublicKeyRetrieval=true&useSSL=false"
+  #"jdbc:mysql://mysql:3306/shipping?allowPublicKeyRetrieval=true&useSSL=false"
+  
+
 
 ---
 apiVersion: apps/v1
